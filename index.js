@@ -466,9 +466,7 @@ function GetInfo(callback){
     });
 }
 
-const PORT =  process.env.PORT ||3000;//
-// http://localhost:3000/?username=1811060534&password=htth26212
-// http://localhost:3000/?username=1811142928&password=lxag01236101019
+const PORT =  process.env.PORT ||3000;
 app.get("/", async(req,res) => {
     //some how 
     console.log(req.query)
